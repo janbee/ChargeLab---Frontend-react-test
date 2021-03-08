@@ -1,0 +1,61 @@
+.portal-wrap {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    height: 90%;
+    width: 90%;
+    overflow: auto;
+    border: 1px solid #d7d7d7;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+    > div {
+
+      .card-btn-wrap{
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .edit-wrap {
+
+        .input {
+          display: block;
+          width: 290px;
+
+          input {
+            width: 100%;
+            margin-bottom: 10px;
+          }
+        }
+
+        button {
+          width: 100%;
+        }
+      }
+    }
+
+    .input-wrap {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .btn-wrap {
+      margin-top: 15px;
+
+      button {
+        width: 420px;
+        margin: 0 0 15px 0;
+      }
+
+      a {
+        display: block;
+      }
+    }
+  }
+}

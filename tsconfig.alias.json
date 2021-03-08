@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@app/*": ["./app/*"],
+      "@services/*": ["./app/shared/services/*"],
+      "@utilities/*": ["./app/shared/utils/*"],
+      "@components/*": ["./app/components/*"],
+      "@interfaces/*": ["./app/shared/interfaces/*"],
+      "@assets/*": ["./assets/*"]
+    },
+    "jsx": "preserve"
+  }
+}

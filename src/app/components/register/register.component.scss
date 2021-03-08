@@ -1,0 +1,45 @@
+.register-wrap{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container{
+    min-height: 390px;
+    width: 500px;
+    border: 1px solid #d7d7d7;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+
+    .input-wrap{
+      display: flex;
+      justify-content: space-evenly;
+
+      &.basic-info{
+        display: block;
+        .input{
+          margin: 10px auto;
+          display: block;
+          width: 420px;
+
+          input{
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    .btn-wrap{
+      margin-top: 15px;
+      button{
+        width: 420px;
+        margin: 0 0 15px 0;
+      }
+
+      a{
+        display: block;
+      }
+    }
+  }
+}
